@@ -2,6 +2,9 @@ import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output
 import pandas as pd
 
+# У Даши получилось!
+print('Hi!')
+# z;lfdkgjm padhgm
 
 def get_data_from_df(df):
     lat = list(df['latitude'])
@@ -10,6 +13,8 @@ def get_data_from_df(df):
     return lat, lon, addr, categ
 
 # вот тут все исправили
+=======
+# второе изменение
 
 compare_dict = {
     'зелёные насаждения': ['роща', 'дуб', 'кедр', 'клумба', 'ландшафт', 'берёза', 'лесопосадка',
