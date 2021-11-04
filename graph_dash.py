@@ -9,6 +9,7 @@ def get_data_from_df(df):
     addr = list(df['full_address'])
     return lat, lon, addr, categ
 
+# вот тут все исправили
 
 compare_dict = {
     'зелёные насаждения': ['роща', 'дуб', 'кедр', 'клумба', 'ландшафт', 'берёза', 'лесопосадка',
