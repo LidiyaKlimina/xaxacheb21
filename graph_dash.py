@@ -13,6 +13,7 @@ def get_data_from_df(df):
     return lat, lon, addr, categ
 
 # вот тут все исправили
+=======
 # второе изменение
 
 compare_dict = {
