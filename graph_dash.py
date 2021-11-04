@@ -2,6 +2,9 @@ import plotly.graph_objects as go
 from dash import Dash, dcc, html, Input, Output
 import pandas as pd
 
+# У Даши получилось!
+print('Hi!')
+# z;lfdkgjm padhgm
 
 def get_data_from_df(df):
     lat = list(df['latitude'])
